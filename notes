@@ -165,15 +165,18 @@ https://rollout.io/blog/building-minimal-docker-containers-for-go-applications/ 
 
 Creating a golang docker image and running the binary
 Building containers
-Using alpine to run go binary
-Size diff between golang and alpine (alpine wins)
+![test1](https://184723g-public-tmp.s3-ap-southeast-1.amazonaws.com/1new.png)
+
 Lambda refund
+![test2](https://184723g-public-tmp.s3-ap-southeast-1.amazonaws.com/3.png)
+
 2 stage Pipeline
 Codecommit -> CodeDeploy
  
 Supports EC2 and EC2-ASG deployments with/without B/G deployment
 Required file:
 appspec.yaml
+![test3](https://184723g-public-tmp.s3-ap-southeast-1.amazonaws.com/new3.png)
 
 Dockerfile
 https://github.com/callicoder/go-docker/blob/master/Dockerfile
